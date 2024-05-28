@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="bg-slate-200 pt-10">
+      <!-- 👇Header -->
+      <div
+        class="container px-4 mx-auto flex justify-between h-20 bg-white rounded-full items-center mb-10 bb"
+      >
+        <!-- First col Logo -->
+        <div>
+          <img src="./images/TestLogo.svg" alt="Company Logo" />
+        </div>
+        <!-- Second col -->
+        <div class="flex gap-10 h-8">
+          <div class="flex justify-between items-center gap-2 p-4">
+            <img
+              src="./images/home_FILL0_wght300_GRAD0_opsz24.svg"
+              alt="Home logo"
+            />
+            <p>Overview</p>
+          </div>
+
+          <div
+            class="flex justify-between items-center gap-2 p-4 bg-[#01f0d0] rounded-full"
+          >
+            <img
+              src="./images/group_FILL0_wght300_GRAD0_opsz24.svg"
+              alt="Patients logo"
+            />
+            <p>Patients</p>
+          </div>
+          <div class="flex justify-between items-center gap-2 p-4">
+            <img
+              src="./images/group_FILL0_wght300_GRAD0_opsz24.svg"
+              alt="Patients logo"
+            />
+            <p>Patients</p>
+          </div>
+          <div class="flex justify-between items-center gap-2 p-4">
+            <img
+              src="./images/group_FILL0_wght300_GRAD0_opsz24.svg"
+              alt="Patients logo"
+            />
+            <p>Patients</p>
+          </div>
+          <div class="flex justify-between items-center gap-2 p-4">
+            <img
+              src="./images/group_FILL0_wght300_GRAD0_opsz24.svg"
+              alt="Patients logo"
+            />
+            <p>Patients</p>
+          </div>
+        </div>
+
+        <!-- Third col -->
+        <div class="flex h-10 divide-x">
+          <!-- first cols -->
+          <div class="flex justify-center items-center px-2">
+            <div class="flex justify-center gap-2 items-center">
+              <div class="h-9 w-9">
+                <img
+                  src="./images/senior-woman-doctor-and-portrait-smile-for-health-2023-11-27-05-18-16-utc.png"
+                  alt=""
+                  class="h-full w-full"
+                />
+              </div>
+              <div class="flex flex-col text-sm whitespace-nowrap">
+                <p class="font-bold">Dr. Josse Simmon</p>
+                <p>General Practitioner</p>
+              </div>
+            </div>
+          </div>
+          <!-- Second col -->
+          <div class="flex justify-center items-center gap-5 w-[50%] px-2">
+            <img
+              src="./images/settings_FILL0_wght300_GRAD0_opsz24.svg"
+              alt="Settings logo"
+              class="h-4"
+            />
+            <img
+              src="./images/more_vert_FILL0_wght300_GRAD0_opsz24.svg"
+              alt=""
+              class="h-4"
+            />
+          </div>
+        </div>
+      </div>
+
+      <!-- 💥💥💥Others other than header💥💥💥 -->
+      <div class="parenter">
+        <!-- 💥Patietnts -->
+        <div class="patient rounded-lg px-5 bg-white">
+          <div class="flex justify-between py-5">
+            <p class="text-xl font-bold">Patietnts</p>
+            <div>
+              <img
+                src="./images2/search_FILL0_wght300_GRAD0_opsz24/search_FILL0_wght300_GRAD0_opsz24.png"
+                alt="serach icon"
+              />
+            </div>
+          </div>
+
+          <!-- 👇Patient list -->
+          <div class=" flex flex-col gap-5">
+            <div class="flex justify-between items-center">
+              <div class="flex gap-2">
+                <div>
+                  <img
+                    src="./images2/Layer 8 (1)/Layer 8.png"
+                    alt="Patient Photo"
+                  />
+                </div>
+
+                <div>
+                  <p class="font-bold">Emily Williams</p>
+                  <p>Female 18</p>
+                </div>
+              </div>
+
+              <div>
+                <img
+                  src="./images2/more_horiz_FILL0_wght300_GRAD0_opsz24.svg"
+                  alt="more icon"
+                />
+              </div>
+            </div>
+
+            <div class="flex justify-between items-center">
+              <div class="flex gap-2">
+                <div>
+                  <img
+                    src="./images2/Layer 8 (1)/Layer 8.png"
+                    alt="Patient Photo"
+                  />
+                </div>
+
+                <div>
+                  <p class="font-bold">Emily Williams</p>
+                  <p>Female 18</p>
+                </div>
+              </div>
+
+              <div>
+                <img
+                  src="./images2/more_horiz_FILL0_wght300_GRAD0_opsz24.svg"
+                  alt="more icon"
+                />
+              </div>
+            </div>
+
+            <div class="flex justify-between items-center">
+              <div class="flex gap-2">
+                <div>
+                  <img
+                    src="./images2/Layer 8 (1)/Layer 8.png"
+                    alt="Patient Photo"
+                  />
+                </div>
+
+                <div>
+                  <p class="font-bold">Emily Williams</p>
+                  <p>Female 18</p>
+                </div>
+              </div>
+
+              <div>
+                <img
+                  src="./images2/more_horiz_FILL0_wght300_GRAD0_opsz24.svg"
+                  alt="more icon"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- FOR the chart and co💥💥💥💥💥💥 -->
+        <div class="chart">
+          <h2>Diagnostics History</h2>
+          <div>
+            <canvas id="myChart" width="400" height="260"></canvas>
+          </div>
+        </div>
+
+        <!-- 💥Diagnostics List -->
+        <div class="diagnostics bg-white rounded-md px-4">
+          <div>
+            <p class="text-xl font-bold">Diagnostics List</p>
+          </div>
+          <!-- 👇List itself -->
+          <div class="divide-y">
+            <div class="flex justify-between bg-slate-200 p-2 rounded-full">
+              <p>Problem Diagnosis</p>
+              <p>Description</p>
+              <p>Status</p>
+            </div>
+            <div class="flex justify-between p-2">
+              <p>Problem Diagnosis</p>
+              <p>Description</p>
+              <p>Status</p>
+            </div>
+            <div class="flex justify-between p-2">
+              <p>Problem Diagnosis</p>
+              <p>Description</p>
+              <p>Status</p>
+            </div>
+            <div class="flex justify-between p-2">
+              <p>Problem Diagnosis</p>
+              <p>Description</p>
+              <p>Status</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 💥Lab result  -->
+        <div class="lab px-4 bg-white rounded-lg">
+          <div>
+            <p class="text-xl font-bold">Lab Result</p>
+          </div>
+          <!-- 👇Result list  -->
+          <div class="">
+            <div class="flex justify-between p-2">
+              <p>Blood Tests</p>
+              <img
+                src="./images2/download_FILL0_wght300_GRAD0_opsz24 (1).svg"
+                alt=""
+              />
+            </div>
+            <div class="flex justify-between p-2 bg-slate-200 rounded-full">
+              <p>Blood Tests</p>
+              <img
+                src="./images2/download_FILL0_wght300_GRAD0_opsz24 (1).svg"
+                alt=""
+              />
+            </div>
+            <div class="flex justify-between p-2">
+              <p>Blood Tests</p>
+              <img
+                src="./images2/download_FILL0_wght300_GRAD0_opsz24 (1).svg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+
+        <!-- 💥User Profile (Jessica) -->
+        <div class="profile rounded-lg bg-white">
+          <!-- 👇Profile main -->
+          <div class="flex flex-col justify-center items-center pt-5">
+            <div>
+              <img src="./images2/Layer 2/Layer 2.png" alt="User Photo" />
+            </div>
+            <p class="text-xl font-bold py-3">Jessics Taylor</p>
+          </div>
+          <!-- The rest -->
+          <div class="flex flex-col gap-5">
+            <div class="flex">
+              <div>
+                <img src="./images2/BirthIcon (1).svg" alt="Calender icon" />
+              </div>
+              <div>
+                <p>Date of Birth</p>
+                <p>August 23, 1996</p>
+              </div>
+            </div>
+            <div class="flex">
+              <div>
+                <img src="./images2/BirthIcon (1).svg" alt="Calender icon" />
+              </div>
+              <div>
+                <p>Date of Birth</p>
+                <p>August 23, 1996</p>
+              </div>
+            </div>
+            <div class="flex">
+              <div>
+                <img src="./images2/BirthIcon (1).svg" alt="Calender icon" />
+              </div>
+              <div>
+                <p>Date of Birth</p>
+                <p>August 23, 1996</p>
+              </div>
+            </div>
+            <div class="flex">
+              <div>
+                <img src="./images2/BirthIcon (1).svg" alt="Calender icon" />
+              </div>
+              <div>
+                <p>Date of Birth</p>
+                <p>August 23, 1996</p>
+              </div>
+            </div>
+          </div>
+          <!-- btn -->
+          <button class="bg-[#01f0d0] py-2 px-4 text-sm font-bold rounded-full">
+            Show All Information
+          </button>
+        </div>
+      </div>
+    </section>
+
+
+
+    <script>
+      const ctx = document.getElementById('myChart');
+    
+      new Chart(ctx, {
+        type: 'line',
+        // data,
+        data: {
+          labels: ['oct 2023', 'nov 2023', 'dec 2023', 'jan 2024', 'feb 2024', 'mar 2024'],
+          datasets: [{
+            label: 'systolic',
+            data: [65, 59, 80, 81, 56, 55, 40],
+            borderWidth: 2,
+            tension:0.4
+          },{
+          labels: [60, 80, 100, 120, 140, 160],
+          datasets: [{
+            label: 'Diastolic',
+            data: [65, 59, 80, 81, 56, 55, 40],
+            borderWidth: 1,
+            tension:0.4
+          }],
+          
+          }
+        ]},
+        options: {
+          scales: {
+            y: {
+              beginAtZero: true
+            }
+          }
+        }
+      });
+
+      let 
+
+      fetch('https://fedskillstest.coalitiontechnologies.workers.dev')
+      .then((res)=> res.json())
+    </script>
+    
+  </body>
+</html>
